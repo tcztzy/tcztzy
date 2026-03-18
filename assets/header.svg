@@ -1,0 +1,68 @@
+<svg width="1280" height="400" viewBox="0 0 1280 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FBFA"/>
+      <stop offset="1" stop-color="#EEF5FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="870" y1="60" x2="1180" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#C7D2E0" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="400" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="28" fill="url(#grid)" opacity="0.35"/>
+
+  <circle cx="1152" cy="78" r="108" fill="#D1FAE5" opacity="0.8"/>
+  <circle cx="1010" cy="344" r="154" fill="#DBEAFE" opacity="0.9"/>
+  <circle cx="140" cy="42" r="92" fill="#E0F2FE" opacity="0.7"/>
+
+  <g filter="url(#shadow)">
+    <rect x="804" y="46" width="418" height="292" rx="24" fill="#FFFFFF" fill-opacity="0.86"/>
+    <rect x="826" y="68" width="374" height="118" rx="18" fill="url(#panel)"/>
+    <rect x="826" y="196" width="176" height="48" rx="14" fill="#ECFDF5"/>
+    <rect x="826" y="258" width="176" height="48" rx="14" fill="#EFF6FF"/>
+    <rect x="1018" y="196" width="176" height="48" rx="14" fill="#FFF7ED"/>
+    <rect x="1018" y="258" width="176" height="48" rx="14" fill="#F8FAFC"/>
+  </g>
+
+  <rect x="82" y="74" width="352" height="34" rx="17" fill="#DCFCE7"/>
+  <text x="258" y="96" text-anchor="middle" fill="#166534" font-size="14" font-family="Arial, Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-weight="700">tcztzy = 天才之唐梓涯 (Genius Tang Ziya)</text>
+
+  <text x="94" y="140" fill="#0F172A" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">Tang</text>
+  <text x="218" y="140" fill="#0F172A" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">Ziya</text>
+  <text x="84" y="162" fill="#64748B" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">family name</text>
+  <text x="208" y="162" fill="#64748B" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">given name</text>
+  <text x="80" y="218" fill="#0F172A" font-size="58" font-family="Arial, Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-weight="700">唐</text>
+  <text x="170" y="218" fill="#0F172A" font-size="58" font-family="Arial, Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-weight="700">梓涯</text>
+  <text x="80" y="252" fill="#155E75" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">Computational genomics, LLM systems,</text>
+  <text x="80" y="282" fill="#155E75" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">and research engineering</text>
+  <text x="80" y="316" fill="#334155" font-size="20" font-family="Arial, Helvetica, sans-serif">Building tools for scientific reasoning, agent workflows,</text>
+  <text x="80" y="344" fill="#334155" font-size="20" font-family="Arial, Helvetica, sans-serif">and reproducible software.</text>
+
+  <g fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    <text x="80" y="360">Python / Rust / Jupyter / Nix / MCP / HPC</text>
+    <text x="80" y="384">Research software for biology, model tooling, and systems work</text>
+  </g>
+
+  <text x="852" y="110" fill="#ECFEFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Current directions</text>
+  <text x="852" y="142" fill="#FFFFFF" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Agent tooling</text>
+  <text x="852" y="166" fill="#CFFAFE" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">Scientific AI</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">
+    <text x="846" y="225" fill="#166534">Research tooling</text>
+    <text x="846" y="287" fill="#1D4ED8">LLM infrastructure</text>
+    <text x="1038" y="225" fill="#9A3412">Research engineering</text>
+    <text x="1038" y="287" fill="#334155">Computational biology</text>
+  </g>
+</svg>

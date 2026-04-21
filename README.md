@@ -17,6 +17,8 @@ I build software at the intersection of LLM systems, developer tooling, compiler
 
 I care about tools that make complex workflows executable, inspectable, and benchmarkable.
 
+> I now work in full human-AI symbiosis: whether I am job hunting, writing papers, or replying to emails, I stay synchronized with my private assistant. If my assistant and I cannot reach agreement on a product—whether by the assistant convincing me to revise it or by me convincing the assistant to accept my taste—I will not promote it. **Anything that an AI can already identify problems with does not deserve to waste human attention.**
+
 - Working on agent skills, MCP servers, model-serving infrastructure, compiler/runtime projects, and evaluation tooling.
 - Strongest with Python and Rust; usually shipping CLI tools, notebook tooling, and GPU/HPC-heavy workflows.
 - Interested in software engineering, ML systems, and research engineering roles in Europe, the UK, and the US.
